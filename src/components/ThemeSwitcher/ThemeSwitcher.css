@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Orbitron:wght@400;700;800;900&display=swap');
+/* 
+    font-family: 'League Spartan', sans-serif;
+*/
+
+.title{
+    color: var(--title-text-color);
+    
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+
+    position: absolute;
+
+    margin-top: 30px;
+}
+
+.themes{
+    display: flex;
+    justify-content: space-around;
+
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: var(--themes-text-color);
+
+    margin-left: 25rem;
+    margin-bottom: 70px;
+}
+
+.switch-body{
+    width: 75px;
+    height: 25px;
+
+    position: absolute;
+
+    border-radius: 10px;
+    background-color: var(--switch-body-bg-color);
+
+    margin-left: 24.9rem;
+    margin-top: -60px;
+
+    cursor: pointer;
+}
+
+.switch{
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+
+    border-radius: 100px;
+    background-color: var(--switch-bg-color);
+}
+
+.switch:hover{
+    background-color: var(--switch-hover-color);
+}
+
+.theme-title {
+    color: var(--theme-title-text-color);
+    
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+
+    position: absolute;
+
+    margin-left: -60px;
+    margin-top: 8px;
+}
+
+.switch.dark {
+    margin-left: 4px;
+    margin-top: 2.5px;
+}
+
+.switch.light {
+    margin-left: 26px;
+    margin-top: 2.5px;
+}
+
+.switch.midnight {
+    margin-left: 52px;
+    margin-top: 2.5px;
+}

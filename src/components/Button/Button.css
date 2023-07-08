@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Orbitron:wght@400;700;800;900&display=swap');
+/* 
+    font-family: 'League Spartan', sans-serif;
+*/
+
+.button{
+    font-size: 32px;
+    font-family: 'League Spartan', sans-serif;
+    
+    /* flex: 1 to make the buttons fit the calculator body width */
+    flex: 1; 
+
+    border-radius: 10px;
+    border-style: none;
+
+    cursor: pointer;
+}
+
+.button-row{
+    display: flex;
+
+    margin: 10px;
+}
+
+.button.number{
+    background-color: var(--button-number-bg-color);
+    color: var(--button-number-text-color);
+
+    font-weight: 700;
+
+    margin: 10px;
+    padding-top: 10px;
+
+    box-shadow: 0px 4px 0px var(--button-number-box-shadow);
+}
+
+.button.number:hover{
+    background-color: var(--button-number-hover-color);
+}
+
+.button.operation{
+    width: 70px;
+    height: 50px;
+    
+    background-color: var(--button-operation-bg-color);
+    color: var(--button-operation-text-color);
+    
+    font-weight: 700;
+
+    margin: 10px;
+    padding-top: 10px;
+
+    box-shadow: 0px 4px 0px var(--button-operation-box-shadow);
+}
+
+.button.operation:hover{
+    background-color: var(--button-operation-hover-color);
+}
+
+.button.del{
+    width: 70px;
+    height: 50px;
+
+    background-color: var(--button-delete-bg-color);
+    color: var(--button-delete-text-color);
+
+    font-size: 24px;
+    font-weight: 700;
+
+    margin: 10px;
+    padding-top: 5px;
+
+    box-shadow: 0px 4px 0px var(--button-delete-box-shadow);
+}
+
+.button.del:hover{
+    background-color: var(--button-delete-hover-color);
+}
+
+.button.reset{
+    background-color: var(--button-reset-bg-color);
+    color: var(--button-reset-text-color);
+
+    font-weight: 700;
+    font-size: 28px;
+
+    height: 60px;
+
+    margin: 10px;
+    padding-top: 8px;
+
+    box-shadow: 0px 4px 0px var(--button-reset-box-shadow);
+}
+
+.button.reset:hover{
+    background-color: var(--button-reset-hover-color);
+}
+
+.button.equal{
+    background-color: var(--button-equal-bg-color);
+    color: var(--button-equal-text-color);
+
+    font-weight: 700;
+    font-size: 24px;
+
+    margin: 10px;
+    padding-top: 8px;
+
+    box-shadow: 0px 4px 0px var(--button-equal-box-shadow);
+}
+
+.button.equal:hover{
+    background-color: var(--button-equal-hover-color);
+}

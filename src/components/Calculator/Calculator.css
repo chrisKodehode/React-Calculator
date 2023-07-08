@@ -1,0 +1,8 @@
+.calculator-buttons{
+    background-color: var(--calculator-body-color);
+
+    margin-top: 20px;
+
+    border-radius: 10px;
+    border: 2px solid var(--calculator-body-border-color);
+}
